@@ -19,3 +19,5 @@ Testimonials about the influence of Wolflife among the Arkansas State Campus.
 The app will be implemented using Xamarin Forms which is a crossplatform library the uses C# and XAML to build the app.
 
 The app will be placed on the Google play store but not that Apple store.
+
+The main code base is located in Wolflife
