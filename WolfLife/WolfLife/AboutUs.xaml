@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WolfLife.AboutUs"
+             BackgroundColor="#000000"
+             >
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.40*"/>
+                <RowDefinition Height="0.30*"/>
+                <RowDefinition Height="0.15*"/>
+                <RowDefinition Height="0.15*"/>
+            </Grid.RowDefinitions>
+            <Label Text="Video goes here!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+                   Grid.Row="0" TextColor="White"/>
+            <Label Text="Mision Statement" HorizontalTextAlignment="Center" HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" Grid.Row="1" TextColor="White"/>
+            <Button Text="Leaders" Clicked="onLeadersClicked" Grid.Row="2"
+                    BackgroundColor="#cc092f" FontSize="25" FontAttributes="Bold"
+                    CornerRadius="5" FontFamily="CollegiateFLF.ttf#CollegiateFLF"/>
+            <Button Text="Testimonials" Clicked="onTestimonialsClicked" Grid.Row="3"
+                    BackgroundColor="#cc092f" FontSize="25" FontAttributes="Bold"
+                    CornerRadius="5" FontFamily="CollegiateFLF.ttf#CollegiateFLF"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WolfLife.Lessons"
+             BackgroundColor="DarkGray"
+             Title="Lessons">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="WolflifeLogo.png" Scale="0.8"/>
+            <ScrollView>
+                <StackLayout>
+                    <Frame HeightRequest="100" BackgroundColor="DarkGray">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.33*"/>
+                                <ColumnDefinition Width="0.66*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" Source="WRound.png" VerticalOptions="CenterAndExpand"/>
+                            <Label Grid.Column="1" Text="This is a link to soundcloud entry"
+                               FontSize="Large" FontFamily="Times New Roman" HorizontalTextAlignment="Center"
+                               TextColor="Black" VerticalOptions="CenterAndExpand"/>
+                        </Grid>
+                    </Frame>
+                    <Frame HeightRequest="100" BackgroundColor="DarkGray">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.33*"/>
+                                <ColumnDefinition Width="0.66*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" Source="WRound.png" VerticalOptions="CenterAndExpand"/>
+                            <Label Grid.Column="1" Text="This is a link to soundcloud entry"
+                               FontSize="Large" FontFamily="Times New Roman" HorizontalTextAlignment="Center"
+                               TextColor="Black" VerticalOptions="CenterAndExpand"/>
+                        </Grid>
+                    </Frame>
+                    <Frame HeightRequest="100" BackgroundColor="DarkGray">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.33*"/>
+                                <ColumnDefinition Width="0.66*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" Source="WRound.png" VerticalOptions="CenterAndExpand"/>
+                            <Label Grid.Column="1" Text="This is a link to soundcloud entry"
+                               FontSize="Large" FontFamily="Times New Roman" HorizontalTextAlignment="Center"
+                               TextColor="Black" VerticalOptions="CenterAndExpand"/>
+                        </Grid>
+                    </Frame>
+                    <Frame HeightRequest="100" BackgroundColor="DarkGray">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.33*"/>
+                                <ColumnDefinition Width="0.66*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" Source="WRound.png" VerticalOptions="CenterAndExpand"/>
+                            <Label Grid.Column="1" Text="This is a link to soundcloud entry"
+                               FontSize="Large" FontFamily="Times New Roman" HorizontalTextAlignment="Center"
+                               TextColor="Black" VerticalOptions="CenterAndExpand"/>
+                        </Grid>
+                    </Frame>
+                    <Frame HeightRequest="100" BackgroundColor="DarkGray">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.33*"/>
+                                <ColumnDefinition Width="0.66*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" Source="WRound.png" VerticalOptions="CenterAndExpand"/>
+                            <Label Grid.Column="1" Text="This is a link to soundcloud entry"
+                               FontSize="Large" FontFamily="Times New Roman" HorizontalTextAlignment="Center"
+                               TextColor="Black" VerticalOptions="CenterAndExpand"/>
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

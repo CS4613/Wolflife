@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WolfLife.Events"
+             Title="Events"
+             BackgroundColor="#cc092f">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+            </Grid.RowDefinitions>
+            <Frame Grid.Row="0" Padding="10" Margin="10">
+                <Label Text="Google calendar goes here" TextColor="Black" VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="Center" FontSize="Medium"/>
+            </Frame>
+            <StackLayout Grid.Row="1">
+                <Label Text="Detailed Events:" TextColor="#000000" FontSize="Large"
+                       FontFamily="CollegiateFLF.ttf#CollegiateFLF"/>
+                <ScrollView x:Name="MainScrollView" Grid.Row="1"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
