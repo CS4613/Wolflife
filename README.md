@@ -26,7 +26,20 @@ The app will be placed on the Google play store but not that Apple store.
 
 The main code base is located in Wolflife
 
+# Installation:
+1. Download and install "Visual Studios Community Edition," making sure to select Xamarin forms to Installation.
+
+2. Once installed and configured use the "WolfLife.sln" to open it in visual studios.
+
+3. Now just build and deploy.
+
+# Development Timeline:
+
+
+
 # References:
 Wolflife Website: https://asuwolflife.org/home
 
 Xamarin Documentation: https://dotnet.microsoft.com/apps/xamarin
+
+Xamarin Installation Instructions Videos: https://dotnet.microsoft.com/learn/xamarin/hello-world-tutorial/install
