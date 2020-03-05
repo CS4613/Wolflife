@@ -5,6 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="WolfLife.AboutUs"
+             Title="About Us"
              BackgroundColor="#000000"
              >
     <ContentPage.Content>
@@ -17,8 +18,12 @@
             </Grid.RowDefinitions>
             <Label Text="Video goes here!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
                    Grid.Row="0" TextColor="White"/>
-            <Label Text="Mision Statement" HorizontalTextAlignment="Center" HorizontalOptions="Center"
-                   VerticalOptions="CenterAndExpand" Grid.Row="1" TextColor="White"/>
+            <Label Text="Our mission is to impact 
+                   the lives of the students at Arkansas State University 
+                   by growing closer to God and growing closer to each other."
+                   HorizontalTextAlignment="Center" HorizontalOptions="Center" Padding="10"
+                   VerticalOptions="CenterAndExpand" Grid.Row="1" TextColor="#ffffff" FontSize="23"
+                   FontFamily="CollegiateFLF.ttf#CollegiateFLF" LineHeight="1.25" Margin="10"/>
             <Button Text="Leaders" Clicked="onLeadersClicked" Grid.Row="2"
                     BackgroundColor="#cc092f" FontSize="25" FontAttributes="Bold"
                     CornerRadius="5" FontFamily="CollegiateFLF.ttf#CollegiateFLF"/>
