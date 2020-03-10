@@ -16,5 +16,25 @@ namespace WolfLife
         {
             InitializeComponent();
         }
+
+        private void Instagram_Tapped(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Twitter_Tapped(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Facebook_Tapped(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Youtube_Tapped(object sender, EventArgs e)
+        {
+
+        }
     }
 }
