@@ -11,19 +11,27 @@
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="0.40*"/>
+                <RowDefinition Height="0.30*"/>
                 <RowDefinition Height="0.30*"/>
                 <RowDefinition Height="0.15*"/>
                 <RowDefinition Height="0.15*"/>
             </Grid.RowDefinitions>
-            <Label Text="Video goes here!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
-                   Grid.Row="0" TextColor="White"/>
-            <Label Text="Our mission is to impact 
+            <Frame Grid.Row="0" BackgroundColor="#fffff" CornerRadius="10" Margin="10"
+                   Padding="0">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Frame.GestureRecognizers>
+                <MediaElement x:Name="videoPlayer" Source="ms-appx:///Wolflife_promo.mp4" Aspect="AspectFill"
+                              Margin="0" BackgroundColor="#000000"/>
+            </Frame>
+            <ScrollView Grid.Row="1">
+                <Label Text="Our mission is to impact 
                    the lives of the students at Arkansas State University 
                    by growing closer to God and growing closer to each other."
                    HorizontalTextAlignment="Center" HorizontalOptions="Center" Padding="10"
                    VerticalOptions="CenterAndExpand" Grid.Row="1" TextColor="#ffffff" FontSize="23"
                    FontFamily="CollegiateFLF.ttf#CollegiateFLF" LineHeight="1.25" Margin="10"/>
+            </ScrollView>
             <Button Text="Leaders" Clicked="onLeadersClicked" Grid.Row="2"
                     BackgroundColor="#cc092f" FontSize="25" FontAttributes="Bold"
                     CornerRadius="5" FontFamily="CollegiateFLF.ttf#CollegiateFLF"/>

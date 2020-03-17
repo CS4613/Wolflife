@@ -12,9 +12,25 @@ namespace WolfLife
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AboutUs : ContentPage
     {
+        bool mediaIsPlaying = true;
         public AboutUs()
         {
+            
             InitializeComponent();
+
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            videoPlayer.Pause();
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            if (mediaIsPlaying)
+                videoPlayer.Play();
         }
 
         async void onLeadersClicked(object sender, EventArgs e)
@@ -25,6 +41,21 @@ namespace WolfLife
         async void onTestimonialsClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Testimonials { });
+        }
+
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            if (mediaIsPlaying)
+            {
+                videoPlayer.Pause();
+                mediaIsPlaying = false;
+            }
+            else
+            {
+                videoPlayer.Play();
+                mediaIsPlaying = true;
+            }
+
         }
     }
 }

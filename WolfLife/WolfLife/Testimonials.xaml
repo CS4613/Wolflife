@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             xmlns:video="clr-namespace:FormsVideoLibrary"
              x:Class="WolfLife.Testimonials"
              BackgroundColor="#000000"
              Title="Testimonials">
@@ -11,31 +12,31 @@
         <ScrollView>
             <StackLayout>
                 <Frame HeightRequest="200" Margin="15" CornerRadius="5">
-                    <Label Text="Video Goes here" TextColor="Black"/>
+                    <video:VideoPlayer />
                 </Frame>
                 <Label Text="Quote" VerticalOptions="Center" FontSize="20" FontAttributes="Italic"
                    TextColor="#cc092f" FontFamily="CollegiateFLF.ttf#CollegiateFLF" HorizontalTextAlignment="Center"
                    Margin="10"/>
                 <Frame HeightRequest="200" Margin="15" CornerRadius="5">
-                    <Label Text="Video Goes here" TextColor="Black"/>
+                    <video:VideoPlayer />
                 </Frame>
                 <Label Text="Quote" VerticalOptions="Center" FontSize="20" FontAttributes="Italic"
                    TextColor="#cc092f" FontFamily="CollegiateFLF.ttf#CollegiateFLF" HorizontalTextAlignment="Center"
                    Margin="10"/>
                 <Frame HeightRequest="200" Margin="15" CornerRadius="5">
-                    <Label Text="Video Goes here" TextColor="Black"/>
+                    <video:VideoPlayer />
                 </Frame>
                 <Label Text="Quote" VerticalOptions="Center" FontSize="20" FontAttributes="Italic"
                    TextColor="#cc092f" FontFamily="CollegiateFLF.ttf#CollegiateFLF" HorizontalTextAlignment="Center"
                    Margin="10"/>
                 <Frame HeightRequest="200" Margin="15" CornerRadius="5">
-                    <Label Text="Video Goes here" TextColor="Black"/>
+                    <video:VideoPlayer />
                 </Frame>
                 <Label Text="Quote" VerticalOptions="Center" FontSize="20" FontAttributes="Italic"
                    TextColor="#cc092f" FontFamily="CollegiateFLF.ttf#CollegiateFLF" HorizontalTextAlignment="Center"
                    Margin="10"/>
                 <Frame HeightRequest="200" Margin="15" CornerRadius="5">
-                    <Label Text="Video Goes here" TextColor="Black"/>
+                    <video:VideoPlayer />
                 </Frame>
                 <Label Text="Quote" VerticalOptions="Center" FontSize="20" FontAttributes="Italic"
                    TextColor="#cc092f" FontFamily="CollegiateFLF.ttf#CollegiateFLF" HorizontalTextAlignment="Center"
