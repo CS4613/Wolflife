@@ -17,6 +17,8 @@ namespace WolfLife
             InitializeComponent();
 
             const int NUMBEROFIMAGES = 3;
+            
+            //source for slideshow
             Slideshow.ItemsSource = new string[]
             {
                "will.jpeg",
@@ -24,6 +26,7 @@ namespace WolfLife
                "sliding.jpeg"
             };
 
+            //moves the postion of the carosel view forward one 
             Device.StartTimer(TimeSpan.FromSeconds(5), (Func<bool>)(() =>
             {
                 if (Slideshow.Position < NUMBEROFIMAGES)

@@ -17,6 +17,8 @@ namespace WolfLife
             InitializeComponent();
 
             StackLayout sl = new StackLayout { };
+
+            //used for format testing purpose. Populates the scroll view with entries
             for (int i = 0; i < 20; ++i)
                 sl.Children.Add(new Label
                 {

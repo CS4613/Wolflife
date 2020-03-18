@@ -20,12 +20,14 @@ namespace WolfLife
 
         }
 
+        //pauses the video upon pausing the activity
         protected override void OnDisappearing()
         {
             base.OnDisappearing();
             videoPlayer.Pause();
         }
 
+        //plays the video upon the activity resuming
         protected override void OnAppearing()
         {
             base.OnAppearing();
@@ -43,6 +45,7 @@ namespace WolfLife
             await Navigation.PushAsync(new Testimonials { });
         }
 
+        //controls the play and pause tap gesture of the video
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
             if (mediaIsPlaying)
