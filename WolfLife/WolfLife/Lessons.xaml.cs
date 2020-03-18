@@ -16,5 +16,16 @@ namespace WolfLife
         {
             InitializeComponent();
         }
+
+        async private void Unfiltered_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new WebViewPage("https://soundcloud.com/user-309912955/sets/unfiltered-series"));
+        }
+
+        async private void Whats_The_Point_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new WebViewPage("https://soundcloud.com/user-309912955/sets/whats-the-point-series"));
+        }
     }
+    
 }

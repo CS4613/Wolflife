@@ -16,25 +16,24 @@ namespace WolfLife
         {
             InitializeComponent();
         }
-
-        private void Instagram_Tapped(object sender, EventArgs e)
+        async private void Instagram_Tapped(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new WebViewPage("https://www.instagram.com/wolflifecampusministry/"));
         }
 
-        private void Twitter_Tapped(object sender, EventArgs e)
+        async private void Twitter_Tapped(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new WebViewPage("https://twitter.com/WOLFLIFE_CM"));
         }
 
-        private void Facebook_Tapped(object sender, EventArgs e)
+        async private void Facebook_Tapped(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new WebViewPage("https://www.facebook.com/WolflifeCampusMinistry/"));
         }
 
-        private void Youtube_Tapped(object sender, EventArgs e)
+        async private void Youtube_Tapped(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new WebViewPage("https://www.youtube.com/channel/UCg2DCcbgsPiI-57TqQ6jQrA/" ));
         }
     }
 }

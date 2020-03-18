@@ -13,6 +13,9 @@
             <ScrollView>
                 <StackLayout>
                     <Frame BorderColor="Black" BackgroundColor="#BBBCBC" Padding="0" CornerRadius="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Unfiltered_Tapped"/>
+                        </Frame.GestureRecognizers>
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="0.33*"/>
@@ -27,6 +30,9 @@
                         </Grid>
                     </Frame>
                     <Frame BorderColor="Black" BackgroundColor="#BBBCBC" Padding="0" CornerRadius="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Whats_The_Point_Tapped"/>
+                        </Frame.GestureRecognizers>
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="0.33*"/>
