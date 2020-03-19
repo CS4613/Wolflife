@@ -15,8 +15,6 @@ The app will provide information about Wolflife.
 
 Contact info along with Google map API.
 
-Events list integrated with Google calendar API.
-
 Testimonials about the influence of Wolflife among the Arkansas State Campus.
 
 # Implementation:
@@ -47,4 +45,4 @@ Xamarin Installation Instructions Videos: https://dotnet.microsoft.com/learn/xam
 # Known Issues:
 Leaders Activity is not properly formated. Most pictures will not appear correctly.
 
-Audio keeps playing on souncloud after activity has been destroyed.
+Audio keeps playing on souncloud after activity has been destroyed(presumed problem with how soundcloud uses android resources).

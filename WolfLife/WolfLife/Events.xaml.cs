@@ -15,20 +15,11 @@ namespace WolfLife
         public Events()
         {
             InitializeComponent();
-
-            StackLayout sl = new StackLayout { };
-
-            //used for format testing purpose. Populates the scroll view with entries
-            for (int i = 0; i < 20; ++i)
-                sl.Children.Add(new Label
-                {
-                    Text = "Detailed List entry",
-                    TextColor = Color.FromHex("#000000"),
-                    FontFamily = "CollegiateFLF.ttf#CollegiateFLF",
-                    FontSize = 20
-                });
-            MainScrollView.Content = sl;
         }
 
+        async private void Calendar_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new WebViewPage(/*insert link to calendar*/""));
+        }
     }
 }

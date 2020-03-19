@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "l0kZ4FzOkqwm7W17AF8z5L6PS14sbJwhzNLrE7NQS4okE37sLkq8RiKTZsp73Ank6s4yvJ6Djfk5pn6MzfM0Zg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CadePowers\\source\\repos\\WolfLife\\WolfLife\\WolfLife\\WolfLife.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CadePowers\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\CadePowers\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\CadePowers\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\CadePowers\\.nuget\\packages\\xamarin.essentials\\1.5.1\\xamarin.essentials.1.5.1.nupkg.sha512",
+    "C:\\Users\\CadePowers\\.nuget\\packages\\xamarin.forms\\4.5.0.396\\xamarin.forms.4.5.0.396.nupkg.sha512"
+  ],
+  "logs": []
+}
