@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RlXm9OD3kRwr3TTCDRUyxk8Zk/7UQ3oKzHc322sLzawBJhcBy2BJbiMnmToJQ0C4GlTH5wXKZvhBPYmx/nWaCQ==",
+  "dgSpecHash": "MMB7X4QLkc5pdLg6FhSwdrLw02w1remrxp0Q80V62bxIVXwWR1ew2W6MBXcr69aJv75D+7RFJ29NtSKPCKqo3Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\CadePowers\\source\\repos\\WolfLife\\WolfLife\\WolfLife.Android\\WolfLife.Android.csproj",
   "expectedPackageFiles": [
@@ -41,8 +41,14 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.vector.drawable\\28.0.0.3\\xamarin.android.support.vector.drawable.28.0.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.versionedparcelable\\28.0.0.3\\xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.viewpager\\28.0.0.3\\xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
-    "C:\\Users\\CadePowers\\.nuget\\packages\\xamarin.essentials\\1.5.1\\xamarin.essentials.1.5.1.nupkg.sha512",
-    "C:\\Users\\CadePowers\\.nuget\\packages\\xamarin.forms\\4.5.0.396\\xamarin.forms.4.5.0.396.nupkg.sha512"
+    "C:\\Users\\CadePowers\\.nuget\\packages\\xamarin.build.download\\0.4.11\\xamarin.build.download.0.4.11.nupkg.sha512",
+    "C:\\Users\\CadePowers\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
+    "C:\\Users\\CadePowers\\.nuget\\packages\\xamarin.forms\\4.5.0.617\\xamarin.forms.4.5.0.617.nupkg.sha512",
+    "C:\\Users\\CadePowers\\.nuget\\packages\\xamarin.forms.googlemaps\\3.3.0\\xamarin.forms.googlemaps.3.3.0.nupkg.sha512",
+    "C:\\Users\\CadePowers\\.nuget\\packages\\xamarin.googleplayservices.base\\71.1610.0\\xamarin.googleplayservices.base.71.1610.0.nupkg.sha512",
+    "C:\\Users\\CadePowers\\.nuget\\packages\\xamarin.googleplayservices.basement\\71.1620.0\\xamarin.googleplayservices.basement.71.1620.0.nupkg.sha512",
+    "C:\\Users\\CadePowers\\.nuget\\packages\\xamarin.googleplayservices.maps\\71.1610.0\\xamarin.googleplayservices.maps.71.1610.0.nupkg.sha512",
+    "C:\\Users\\CadePowers\\.nuget\\packages\\xamarin.googleplayservices.tasks\\71.1601.0\\xamarin.googleplayservices.tasks.71.1601.0.nupkg.sha512"
   ],
   "logs": []
 }

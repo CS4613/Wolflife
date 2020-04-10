@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WolfLife.Events"
+             Title="Events"
+             BackgroundColor="#cc092f">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.25*"/>
+                <RowDefinition Height="0.25*"/>
+                <RowDefinition Height="0.25*"/>
+                <RowDefinition Height="0.25*"/>
+            </Grid.RowDefinitions>
+            <Image Grid.Row="0" Source="wolfeed.jpg" Aspect="Fill"/>
+            <Label Text="WolFeed" TextColor="#cc092f" FontSize="70"
+                           FontFamily="CollegiateFLF.ttf#CollegiateFLF"
+                           HorizontalTextAlignment="Center" VerticalOptions="Center"
+                           HorizontalOptions="Center" Grid.Row="0"/>
+            <Image Grid.Row="1" Source="lift.jpg" Aspect="Fill"/>
+            <Label Text="Lift" TextColor="#cc092f" FontSize="70"
+                           FontFamily="CollegiateFLF.ttf#CollegiateFLF"
+                           HorizontalTextAlignment="Center" VerticalOptions="Center"
+                           HorizontalOptions="Center" Grid.Row="1"/>
+            <Image Grid.Row="2" Source="worship.jpg" Aspect="Fill"/>
+            <Label Text="Sunday Worship at Compass" TextColor="#cc092f" FontSize="55"
+                           FontFamily="CollegiateFLF.ttf#CollegiateFLF"
+                           HorizontalTextAlignment="Center" VerticalOptions="Center"
+                           HorizontalOptions="Center" Grid.Row="2"/>
+            <Frame CornerRadius="10" BackgroundColor="#BBBCBC" Grid.Row="3" Margin="10">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Calendar_Tapped"/>
+                </Frame.GestureRecognizers>
+                <Label Text="Tap here to take a look at our Website for more Information" TextColor="#cc092f" FontSize="30"
+                           FontFamily="CollegiateFLF.ttf#CollegiateFLF"
+                           HorizontalTextAlignment="Center" VerticalOptions="Center"
+                           HorizontalOptions="Center"/>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

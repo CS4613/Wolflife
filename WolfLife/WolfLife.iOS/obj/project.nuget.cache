@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JW6e2lreQLznY5BvyIN0tJgl9um5ghQLQ9CmBvLrIZLRv0oO3kvl/Q0CGS75gvK9+DtRl6R4wj+S96l5tGjqyA==",
+  "dgSpecHash": "sYTAbHvcigEIB6S8vk1r1onnBAk3jn2OB/SCJhQJcbv9iyqiyDw82nHectVdSZ9RLXUGMthfZjQ9cLV9ciOFsw==",
   "success": true,
   "projectFilePath": "C:\\Users\\CadePowers\\source\\repos\\WolfLife\\WolfLife\\WolfLife.iOS\\WolfLife.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\CadePowers\\.nuget\\packages\\xamarin.essentials\\1.5.1\\xamarin.essentials.1.5.1.nupkg.sha512",
-    "C:\\Users\\CadePowers\\.nuget\\packages\\xamarin.forms\\4.5.0.396\\xamarin.forms.4.5.0.396.nupkg.sha512"
+    "C:\\Users\\CadePowers\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
+    "C:\\Users\\CadePowers\\.nuget\\packages\\xamarin.forms\\4.5.0.617\\xamarin.forms.4.5.0.617.nupkg.sha512"
   ],
   "logs": []
 }
