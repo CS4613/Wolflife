@@ -43,6 +43,5 @@ Xamarin Documentation: https://dotnet.microsoft.com/apps/xamarin
 Xamarin Installation Instructions Videos: https://dotnet.microsoft.com/learn/xamarin/hello-world-tutorial/install
 
 # Known Issues:
-Leaders Activity is not properly formated. Most pictures will not appear correctly.
 
 Audio keeps playing on souncloud after activity has been destroyed(presumed problem with how soundcloud uses android resources).
