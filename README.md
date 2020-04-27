@@ -34,6 +34,7 @@ The main code base is located in Wolflife
 # Development Timeline:
 
 Reference pdf titled "wolflife_timeline."
+The timeline has been pushed a week due to COVID-19.
 
 # References:
 Wolflife Website: https://asuwolflife.org/home
