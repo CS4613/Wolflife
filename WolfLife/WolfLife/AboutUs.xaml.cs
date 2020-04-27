@@ -33,6 +33,7 @@ namespace WolfLife
             base.OnAppearing();
             if (mediaIsPlaying)
                 videoPlayer.Play();
+            
         }
 
         async void onLeadersClicked(object sender, EventArgs e)
@@ -42,7 +43,7 @@ namespace WolfLife
 
         async void onTestimonialsClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Testimonials { });
+            await Navigation.PushAsync(new WebViewPage("https://www.youtube.com/playlist?list=PL_N3gAdxklmLldYshMTd0Ty_-kyuvfaUx"));
         }
 
         //controls the play and pause tap gesture of the video

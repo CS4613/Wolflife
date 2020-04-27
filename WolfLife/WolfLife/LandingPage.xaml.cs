@@ -16,7 +16,7 @@ namespace WolfLife
         {
             InitializeComponent();
 
-            const int NUMBEROFIMAGES = 5;
+            const int NUMBEROFIMAGES = 6;
             
             //source for slideshow
             Slideshow.ItemsSource = new string[]
@@ -25,7 +25,8 @@ namespace WolfLife
                "staff.jpg",
                "sliding.jpeg",
                "union.jpeg",
-               "group3.jpeg"
+               "group3.jpeg",
+               "playingGames.jpeg"
             };
 
             //moves the postion of the carosel view forward one 
