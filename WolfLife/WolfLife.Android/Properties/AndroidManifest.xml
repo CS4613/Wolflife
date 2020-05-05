@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0.0.1" package="com.Wolflife.wolflife" android:installLocation="auto">
-	<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="29" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2" android:versionName="1.0.0.2" package="com.Wolflife.wolflife" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="29" />
 	<application android:label="WolfLife.Android" android:icon="@drawable/WRound">
 		<meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyAe1cuWsn1N09TLF-wkv9fK-J-hQxRjzp8" />
 		<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />

@@ -18,7 +18,7 @@ Contact info along with Google map API.
 Testimonials about the influence of Wolflife among the Arkansas State Campus.
 
 # Implementation:
-The app will be implemented using Xamarin Forms which is a crossplatform library the uses C# and XAML to build the app.
+The app will be implemented using Xamarin Forms which is a crossplatform library the uses C# and XAML.
 
 The app will be placed on the Google play store but not that Apple store.
 
@@ -34,7 +34,7 @@ The main code base is located in Wolflife
 # Development Timeline:
 
 Reference pdf titled "wolflife_timeline."
-The timeline has been pushed a week due to COVID-19.
+The timeline has been pushed two weeks due to COVID-19.
 
 # References:
 Wolflife Website: https://asuwolflife.org/home
@@ -46,3 +46,5 @@ Xamarin Installation Instructions Videos: https://dotnet.microsoft.com/learn/xam
 # Known Issues:
 
 Audio keeps playing on souncloud after activity has been destroyed(presumed problem with how soundcloud uses android resources).
+
+Layout is not dynamic so it does not adjust well to smaller screens
